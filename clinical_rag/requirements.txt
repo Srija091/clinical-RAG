@@ -1,0 +1,26 @@
+# Clinical RAG — Privacy-Safe Pipeline
+# 100% free stack
+# pip install -r requirements.txt
+# python -m spacy download en_core_web_sm
+
+# PII anonymization — runs offline
+spacy>=3.7.0
+
+# Local embeddings — runs offline, ~80MB model download
+sentence-transformers>=2.7.0
+
+# Vector store — free, persistent, local
+chromadb>=0.4.24
+
+# Free LLM API (sign up at groq.com — no credit card)
+groq>=0.4.0
+
+# Web framework
+fastapi>=0.110.0
+uvicorn>=0.29.0
+
+# UI
+streamlit>=1.32.0
+
+# Utilities
+pydantic>=2.0.0
